@@ -1,18 +1,41 @@
 .navbar {
+  /* Positioning */
   position: fixed;
   top: 0;
   left: 0;
+
+  /* Size & Spacing */
   width: 100%;
   padding: 1rem 2rem;
+
+  /* Layout */
   display: flex;
   justify-content: space-between;
   align-items: center;
+
+  /* Visibility */
   opacity: 0;
   pointer-events: none;
   transition: opacity 0.3s ease;
+
+  /* Background */
+  background-color: rgb(10, 10, 20);
+  color: white;
 }
 
 .navbar.visible {
-  opacity: 1;
-  pointer-events: all;
+    opacity: 1;
+    pointer-events: all;
+}
+
+.navbar ul {
+    list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;       
+  gap: 2rem;
+}
+
+.navbar ul li {
+  display: inline;
 }
