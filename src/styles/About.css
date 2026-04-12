@@ -1,0 +1,26 @@
+.about {
+  padding: 5rem 10%;
+}
+
+.about-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 4rem;
+}
+
+.about-bio p {
+  line-height: 1.8;
+  color: white;
+  opacity: 0.8;
+}
+
+.about-facts ul {
+  list-style: none;
+  padding: 0;
+}
+
+.about-facts ul li {
+  padding: 0.75rem 0;
+  border-bottom: 1px solid white;
+  opacity: 0.8;
+}
