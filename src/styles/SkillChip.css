@@ -1,0 +1,7 @@
+.skill-chip {
+  padding: 0.5rem 1rem;
+  border: 1px solid white;
+  border-radius: 20px;
+  font-size: 0.9rem;
+  color: white;
+}
