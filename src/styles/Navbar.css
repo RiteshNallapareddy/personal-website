@@ -39,3 +39,8 @@
 .navbar ul li {
   display: inline;
 }
+
+.navbar ul li a {
+  color: white;
+  text-decoration: none;
+}
