@@ -1,5 +1,7 @@
 import '../styles/Hero.css'
 import { useState, useEffect } from 'react'
+import profilePic from '../assets/profile.png'
+
 
 
 function Hero() {
@@ -31,6 +33,9 @@ function Hero() {
       <a href="#projects" className="btn-primary">View Projects</a>
       <a href="#contact" className="btn-secondary">Contact Me</a>
     </div>
+  </div>
+  <div className="hero-image">
+    <img src={profilePic} alt="Ritesh Nallapareddy" />
   </div>
 </div>
   )
