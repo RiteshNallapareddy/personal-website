@@ -8,11 +8,12 @@
 .hero-name {
     font-size: 4rem;
     font-weight: bold;
-    color: black;
+    color: white;
 }
 
 .hero-title {
     font-size: 1.5rem;
+    color: white;
 }
 
 .hero-buttons {
@@ -20,21 +21,18 @@
     gap: 2rem;
 }
 
-.btn-primary {
-    padding: 0.75rem 2rem;
-    background-color: rgb(125, 249, 255);
-    border-radius: 8px;
-    text-decoration: none;
-    color: black;
+.btn-primary, .btn-secondary {
+  padding: 0.75rem 2rem;
+  background-color: transparent;
+  border-radius: 8px;
+  border: 2px solid white;
+  text-decoration: none;
+  color: white;
+  transition: all 0.3s ease;
 }
 
-.btn-secondary {
-    padding: 0.75rem 2rem;
-    background-color: transparent;
-    border-radius: 8px;
-    border: 2px solid rgb(125, 249, 255);
-    text-decoration: none;
-    color: black;   
+.btn-primary:hover, .btn-secondary:hover {
+    background-color: white;
 }
 
 .hero-title::after {
