@@ -30,10 +30,10 @@
 
 .navbar ul {
     list-style-type: none;
-  padding: 0;
-  margin: 0;
-  display: flex;       
-  gap: 2rem;
+    padding: 0;
+    margin: 0;
+    display: flex;       
+    gap: 2rem;
 }
 
 .navbar ul li {

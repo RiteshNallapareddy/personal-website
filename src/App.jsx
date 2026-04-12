@@ -1,12 +1,11 @@
 import Navbar from './components/Navbar.jsx'
+import Hero from './sections/Hero.jsx'
 
 function App() {
   return (
     <div>
       <Navbar />
-      <div style={{height: '200vh'}}>
-        <h1>Hello</h1>
-      </div>
+      <Hero />
     </div>
   )
 }
