@@ -4,7 +4,9 @@ function App() {
   return (
     <div>
       <Navbar />
-      <h1>Hello</h1>
+      <div style={{height: '200vh'}}>
+        <h1>Hello</h1>
+      </div>
     </div>
   )
 }
