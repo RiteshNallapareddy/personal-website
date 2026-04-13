@@ -12,13 +12,14 @@ function Navbar() {
     return () => window.removeEventListener('scroll', handleScroll)
   }, [])
 
-  const scrollToSection = (id) => {
+    const scrollToSection = (id) => {
+    console.log('CLICKED:', id)
     const element = document.getElementById(id)
+    console.log('ELEMENT:', element)
     if (element) {
-      element.scrollIntoView({ behavior: 'smooth' })
-      window.history.pushState(null, '', `/#${id}`)
+        element.scrollIntoView({ behavior: 'smooth' })
     }
-  }
+    }
 
   return (
     <nav className={visible ? "navbar visible" : "navbar"}>
