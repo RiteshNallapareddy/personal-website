@@ -6,18 +6,18 @@ import Projects from './sections/Projects.jsx'
 import Experiences from './sections/Experience.jsx'
 import Contact from './sections/Contact.jsx'
 import Footer from './components/Footer.jsx'
-
+import ScrollReveal from './components/ScrollReveal.jsx'
 
 function App() {
   return (
     <div>
       <Navbar />
       <Hero />
-      <About />
-      <Skills />
-      <Projects />
-      <Experiences />
-      <Contact /> 
+      <ScrollReveal><About /></ScrollReveal>
+      <ScrollReveal><Skills /></ScrollReveal>
+      <ScrollReveal><Projects /></ScrollReveal>
+      <ScrollReveal><Experiences /></ScrollReveal>
+      <ScrollReveal><Contact /></ScrollReveal>
       <Footer />
     </div>
   )
