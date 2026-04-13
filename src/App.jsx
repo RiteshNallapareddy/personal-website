@@ -3,6 +3,8 @@ import Hero from './sections/Hero.jsx'
 import About from './sections/About.jsx'
 import Skills from './sections/Skills.jsx'
 import Projects from './sections/Projects.jsx'
+import Experiences from './sections/Experience.jsx'
+
 
 function App() {
   return (
@@ -12,6 +14,7 @@ function App() {
       <About />
       <Skills />
       <Projects />
+      <Experiences />
     </div>
   )
 }

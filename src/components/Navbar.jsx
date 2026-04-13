@@ -14,7 +14,7 @@ function Navbar() {
 
   return (
     <nav className={visible ? "navbar visible" : "navbar"}>
-      <span>Ritesh</span>
+      <span>Ritesh's Personal Portfolio</span>
       <ul>
         <li><a href="#about">About</a></li>
         <li><a href="#skills">Skills</a></li>
