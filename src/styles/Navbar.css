@@ -2,34 +2,30 @@
   position: fixed;
   top: 0;
   left: 0;
-
   width: 100%;
   padding: 1rem 2rem;
-
   display: flex;
   justify-content: space-between;
   align-items: center;
-
   opacity: 0;
   pointer-events: none;
   transition: opacity 0.3s ease;
-
   background-color: black;
   color: white;
   box-sizing: border-box;
 }
 
 .navbar.visible {
-    opacity: 1;
-    pointer-events: all;
+  opacity: 1;
+  pointer-events: all;
 }
 
 .navbar ul {
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
-    display: flex;       
-    gap: 2rem;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  gap: 2rem;
 }
 
 .navbar ul li {
@@ -39,8 +35,5 @@
 .navbar ul li a {
   color: white;
   text-decoration: none;
-}
-
-.navbar ul li span {
   cursor: pointer;
 }

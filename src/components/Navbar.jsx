@@ -2,24 +2,26 @@ import '../styles/Navbar.css'
 import { useState, useEffect } from 'react'
 
 function Navbar() {
-  const [visible, setVisible] = useState(false)
+  const [visible, setVisible] = useState(window.scrollY > 50)
 
   useEffect(() => {
     const handleScroll = () => {
       setVisible(window.scrollY > 50)
     }
     window.addEventListener('scroll', handleScroll)
+    handleScroll()
     return () => window.removeEventListener('scroll', handleScroll)
   }, [])
 
-    const scrollToSection = (id) => {
+  const scrollToSection = (id) => {
     console.log('CLICKED:', id)
     const element = document.getElementById(id)
     console.log('ELEMENT:', element)
     if (element) {
-        element.scrollIntoView({ behavior: 'smooth' })
+      element.scrollIntoView({ behavior: 'smooth' })
+      window.history.pushState(null, '', `/#${id}`)
     }
-    }
+  }
 
   return (
     <nav className={visible ? "navbar visible" : "navbar"}>
