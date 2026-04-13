@@ -5,6 +5,7 @@ import Skills from './sections/Skills.jsx'
 import Projects from './sections/Projects.jsx'
 import Experiences from './sections/Experience.jsx'
 import Contact from './sections/Contact.jsx'
+import Footer from './components/Footer.jsx'
 
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
       <Projects />
       <Experiences />
       <Contact /> 
+      <Footer />
     </div>
   )
 }

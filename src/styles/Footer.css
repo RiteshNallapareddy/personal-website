@@ -1,0 +1,9 @@
+.footer {
+  padding: 1rem 1%;
+  text-align: left;
+  opacity: 0.5;
+}
+
+.footer p {
+  font-size: 0.9rem;
+}
