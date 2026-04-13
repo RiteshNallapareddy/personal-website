@@ -1,8 +1,10 @@
 import '../styles/Experience.css'
 import Slideshow from '../components/Slideshow.jsx'
-import img1 from '../assets/experience1.jpg'
-import img2 from '../assets/experience2.jpg'
+import img1 from '../assets/experience1.JPG'
+import img2 from '../assets/experience2.JPEG'
 import img3 from '../assets/experience3.jpg'
+import img4 from '../assets/experience4.JPG'
+import img5 from '../assets/experience5.JPG'
 
 function Experiences() {
   const experiences = [
@@ -44,7 +46,7 @@ function Experiences() {
           </div>
         ))}
       </div>
-      <Slideshow photos={[img1, img2, img3]} />
+      <Slideshow photos={[img1, img2, img3, img4, img5]} />
     </div>
   </div>
 )
