@@ -1,5 +1,9 @@
 import '../styles/Experience.css'
 import Slideshow from '../components/Slideshow.jsx'
+import img1 from '../assets/experience1.JPG'
+import img2 from '../assets/experience2.JPG'
+import img3 from '../assets/experience3.JPEG'
+import img4 from '../assets/experience4.JPG'
 
 function Experiences() {
   const experiences = [
@@ -41,11 +45,7 @@ function Experiences() {
           </div>
         ))}
       </div>
-      <Slideshow photos={[
-        "https://picsum.photos/400/500?random=4",
-        "https://picsum.photos/400/500?random=5",
-        "https://picsum.photos/400/500?random=6"
-      ]} />
+      <Slideshow photos={[img1, img2, img3, img4]} />
     </div>
   </div>
 )

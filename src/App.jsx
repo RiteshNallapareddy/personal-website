@@ -4,6 +4,7 @@ import About from './sections/About.jsx'
 import Skills from './sections/Skills.jsx'
 import Projects from './sections/Projects.jsx'
 import Experiences from './sections/Experience.jsx'
+import Contact from './sections/Contact.jsx'
 
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
       <Skills />
       <Projects />
       <Experiences />
+      <Contact /> 
     </div>
   )
 }

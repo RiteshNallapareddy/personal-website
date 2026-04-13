@@ -1,0 +1,28 @@
+.contact {
+  padding: 5rem 10%;
+  text-align: center;
+}
+
+.contact-subtitle {
+  opacity: 0.7;
+  margin-bottom: 2rem;
+}
+
+.contact-links {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.contact-links a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.1rem;
+  border-bottom: 1px solid white;
+  padding-bottom: 2px;
+  transition: opacity 0.3s ease;
+}
+
+.contact-links a:hover {
+  opacity: 0.6;
+}

@@ -22,7 +22,7 @@ function Hero() {
       setDisplayText('')
     }, 2000)
   }
-}, [displayText, roleIndex])
+}, [displayText, roleIndex]) 
 
   return (
     <div className="hero">
