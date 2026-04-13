@@ -5,7 +5,7 @@ import profilePic from '../assets/profile.png'
 
 
 function Hero() {
-  const roles = ["Quant Developer.", "Engineer.", "Builder."]
+  const roles = ["Engineer.", "Coder.", "Builder."]
     const [roleIndex, setRoleIndex] = useState(0)
     const [displayText, setDisplayText] = useState('')    
 
