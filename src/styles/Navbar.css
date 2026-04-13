@@ -1,26 +1,22 @@
 .navbar {
-  /* Positioning */
   position: fixed;
   top: 0;
   left: 0;
 
-  /* Size & Spacing */
   width: 100%;
   padding: 1rem 2rem;
 
-  /* Layout */
   display: flex;
   justify-content: space-between;
   align-items: center;
 
-  /* Visibility */
   opacity: 0;
   pointer-events: none;
   transition: opacity 0.3s ease;
 
-  /* Background */
   background-color: black;
   color: white;
+  box-sizing: border-box;
 }
 
 .navbar.visible {

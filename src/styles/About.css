@@ -48,3 +48,9 @@
   object-fit: cover;
   border-radius: 16px;
 }
+
+@media (max-width: 768px) {
+  .about-grid {
+    grid-template-columns: 1fr;
+  }
+}
