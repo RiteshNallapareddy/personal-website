@@ -13,11 +13,10 @@ function Navbar() {
   }, [])
 
     const scrollToSection = (id) => {
-    console.log('scrollToSection called with:', id)
     const element = document.getElementById(id)
-    console.log('element found:', element)
     if (element) {
         element.scrollIntoView({ behavior: 'smooth' })
+        window.history.pushState(null, '', `/#${id}`)
     }
     }
 
