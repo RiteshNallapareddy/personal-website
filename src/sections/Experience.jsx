@@ -3,6 +3,7 @@ import Slideshow from '../components/Slideshow.jsx'
 import img1 from '../assets/experience1.jpg'
 import img2 from '../assets/experience2.jpg'
 import img3 from '../assets/experience3.jpg'
+
 function Experiences() {
   const experiences = [
   {
