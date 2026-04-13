@@ -5,16 +5,16 @@ function Slideshow(props) {
   const [photoIndex, setPhotoIndex] = useState(0)
   const [visible, setVisible] = useState(true)
 
-  useEffect(() => {
+    useEffect(() => {
     const timer = setTimeout(() => {
-      setVisible(false)
-      setTimeout(() => {
+        setVisible(false)
+        setTimeout(() => {
         setPhotoIndex((photoIndex + 1) % props.photos.length)
         setVisible(true)
-      }, 500)
+        }, 300)  // ← match the CSS transition time
     }, 3000)
     return () => clearTimeout(timer)
-  }, [photoIndex])
+    }, [photoIndex])
 
   return (
     <div className="slideshow">
@@ -28,3 +28,4 @@ function Slideshow(props) {
 }
 
 export default Slideshow
+

@@ -1,18 +1,27 @@
-.slideshow img {
+.slideshow {
+  position: relative;
   width: 100%;
   height: 400px;
-  object-fit: cover;
+  overflow: hidden;
   border-radius: 16px;
+}
+
+.slideshow img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 .slide {
   opacity: 0;
   transform: translateX(100%);
-  transition: transform 0.5s ease, opacity 0.5s ease;
+  transition: transform 0.3s ease, opacity 0.3s ease;
 }
 
 .slide.visible {
   opacity: 1;
   transform: translateX(0);
-}
+}   
+
+
 

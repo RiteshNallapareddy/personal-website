@@ -1,9 +1,9 @@
 import '../styles/Experience.css'
 import Slideshow from '../components/Slideshow.jsx'
-import img1 from '../assets/experience1.JPG'
-import img2 from '../assets/experience2.JPG'
-import img3 from '../assets/experience3.JPEG'
-import img4 from '../assets/experience4.JPG'
+import img1 from '../assets/experience1.jpg'
+import img2 from '../assets/experience2.jpg'
+import img3 from '../assets/experience3.jpg'
+import img4 from '../assets/experience4.jpg'
 
 function Experiences() {
   const experiences = [
