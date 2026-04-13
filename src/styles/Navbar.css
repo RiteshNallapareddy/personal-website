@@ -40,3 +40,7 @@
   color: white;
   text-decoration: none;
 }
+
+.navbar ul li span {
+  cursor: pointer;
+}
