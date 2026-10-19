@@ -11,8 +11,10 @@ function Skills() {
       <div className="chips">
         <SkillChip name="Python" />
         <SkillChip name="C" />
+        <SkillChip name="C++" />
         <SkillChip name="Java" />
         <SkillChip name="JavaScript" />
+        <SkillChip name="TypeScript" />
         <SkillChip name="HTML" />
         <SkillChip name="CSS" />
         <SkillChip name="SQL" />
@@ -24,6 +26,10 @@ function Skills() {
         <SkillChip name="React" />
         <SkillChip name="Node.js" />
         <SkillChip name="Flask" />
+        <SkillChip name="Vite" />
+        <SkillChip name="Java Swing" />
+        <SkillChip name="ROS2" />
+        <SkillChip name="LangChain" />
       </div>
     </div>
     <div className="skill-category">
@@ -31,6 +37,10 @@ function Skills() {
       <div className="chips">
         <SkillChip name="Git" />
         <SkillChip name="Github" />
+        <SkillChip name="Linux" />
+        <SkillChip name="Vercel" />
+        <SkillChip name="Render" />
+        <SkillChip name="SQLite" />
         <SkillChip name="VS Code" />
       </div>
     </div>
