@@ -28,34 +28,6 @@ function Experiences() {
     start: 202605,
     period: "May 2026 — Present",
     description: "Lead corporate sponsorship strategy and outreach to 17+ companies, and built a 217-company sponsor prospect database"
-  },
-  {
-    club: "Tri-Mentoring Program",
-    role: "Peer Mentor",
-    start: 202511,
-    period: "Nov 2025 — Present",
-    description: "Mentor 8 to 12 first-year engineering students through the academic and social transition to university"
-  },
-  {
-    club: "ECESTORMS",
-    role: "Vice President of Professional Development",
-    start: 202505,
-    period: "May 2025 — May 2026",
-    description: "Planned 5+ professional development events per semester, partnering with faculty, industry and alumni"
-  },
-  {
-    club: "TMU Faculty of Engineering and Architectural Science",
-    role: "First Year Ambassador",
-    start: 202505,
-    period: "May 2025 — May 2026",
-    description: "Represented the faculty in outreach and helped plan events for first-year audiences of 80 to 120 students"
-  },
-  {
-    club: "Google Developer Student Club (GDSC)",
-    role: "Technology Associate",
-    start: 202410,
-    period: "Oct 2024 — Present",
-    description: "Ran coding and web development workshops for 150+ participants"
   }]
 
   const sorted = [...experiences].sort((a, b) => b.start - a.start)

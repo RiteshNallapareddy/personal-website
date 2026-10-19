@@ -1,6 +1,6 @@
 import '../styles/Hero.css'
 import { useState, useEffect } from 'react'
-import profilePic from '../assets/profile.png'
+import profilePic from '../assets/profile.jpg'
 
 
 
